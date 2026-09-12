@@ -1,0 +1,74 @@
+generated: '2026-09-12'
+method: probed
+source: https://aetherfuels.com/.well-known/
+note: >-
+  Probed the full named path list on the only host Aether Fuels operates. Every path
+  returned a hard HTTP 404 from the Craft CMS 404 handler (a ~28KB HTML error page, not a
+  document), including the two non-well-known APIs.json locations and the legacy agent-card
+  path. A negative-control path that cannot exist also returned 404, so this host is NOT a
+  path-echoing or catch-all responder and the 404s are trustworthy. hit_count is 0, so NO
+  WellKnown and NO SecurityTxt pointer is emitted in apis.yml — this file records a verified
+  absence, not a surface.
+hit_count: 0
+path_echo_control: passed
+soft_404_control:
+  path: /.well-known/aether-fuels-negative-control-7f3ab91c.json
+  status: 404
+  bytes: 28446
+  content_type: text/html; charset=UTF-8
+hosts:
+- host: https://aetherfuels.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+x-hosts-not-probed:
+- host: aether-fuel.transforms.svdcdn.com
+  reason: >-
+    Third-party image-transform CDN (svdcdn.com) referenced only by the site's og:image;
+    not a host Aether Fuels controls, so its .well-known surface would not be the
+    provider's document.
+x-dns:
+  note: >-
+    No api., developer., developers., docs., portal., app., data. or status. subdomain of
+    aetherfuels.com resolves in DNS (curl exit 6, host not found), so there is no second
+    host to probe.

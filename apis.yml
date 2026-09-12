@@ -1,17 +1,40 @@
 aid: aether-fuels
 name: Aether Fuels
-description: 'Aether Fuels is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Aether Fuels is a sustainable-fuels technology company founded in April 2022
+  by Conor Madigan with Xora Innovation, headquartered at Republic Plaza in Singapore with
+  a U.S. R&D center on the GTI Energy campus in the Chicago area. Its Aether Aurora process
+  is a radically simplified gas-to-liquid route that converts waste carbon — CO2, CO, methane
+  and other hydrocarbons from gasified biomass, municipal solid waste, biogas and industrial
+  off-gases — into drop-in sustainable liquid fuels for aviation and ocean shipping, combining
+  an electrified thermochemical syngas reactor, three proprietary catalysts and by-product
+  recycling to cut capital cost and raise carbon conversion efficiency at medium plant scale.
+  The company runs a 1.5 gallon-per-day integrated pilot line with strategic partner GTI Energy,
+  whose technology it licenses, and is building a 1+ barrel-per-day demonstration plant; it has
+  signed MOUs with JetBlue and FlyORO and is partnered with Aster on a first commercial SAF
+  plant in Singapore. Aether Fuels sells fuel and process technology, not software: it publishes
+  no developer program, no public API, and no machine-readable API contract of any kind.'
+image: https://aetherfuels.com/android-chrome-512x512.png
 url: https://raw.githubusercontent.com/api-evangelist/aether-fuels/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profile
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-09-12'
 modified: '2026-09-12'
 tags:
 - Company
+- Energy
+- Sustainable Aviation Fuel
+- Synthetic Fuels
+- Clean Energy
+- Decarbonization
+- Carbon Capture and Utilization
+- Climate Tech
+- Chemicals
+- Deep Tech
+- Manufacturing
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +42,62 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aether-fuels-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://aetherfuels.com/
+- type: About
+  url: https://aetherfuels.com/about
+- type: Technology
+  url: https://aetherfuels.com/technology
+- type: News
+  url: https://aetherfuels.com/news
+- type: Blog
+  url: https://aetherfuels.com/news
+- type: PressReleases
+  url: https://aetherfuels.com/news
+- type: Careers
+  url: https://aetherfuels.com/careers
+- type: Contact
+  url: https://aetherfuels.com/contact
+- type: Support
+  url: https://aetherfuels.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aether-fuels/
+- type: LLMsTxt
+  url: llms/aether-fuels-llms.txt
+x-enrichment:
+  date: '2026-09-12'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Aether Fuels is a Singapore- and Chicago-based sustainable-fuels company that sells
+    Aether Aurora gas-to-liquid process technology and the SAF it produces; its entire web
+    presence is a seven-page Craft CMS marketing site (home, approach, technology, about,
+    news, careers, contact) whose own sitemap index lists no developer, docs or API section,
+    no api./developer./docs./portal./app./data./status. subdomain of aetherfuels.com resolves
+    in DNS at all, and every OpenAPI, APIs.json, agent-card and .well-known path probed on
+    the one live host returns a hard 404 that a negative-control probe confirms is a real
+    404 and not a catch-all.
+  evidence:
+  - url: https://aetherfuels.com/
+    status: 200
+  - url: https://aetherfuels.com/openapi.json
+    status: 404
+  - url: https://aetherfuels.com/apis.json
+    status: 404
+  - url: https://aetherfuels.com/llms.txt
+    status: 404
+  - url: https://aetherfuels.com/.well-known/agent-card.json
+    status: 404
+  - url: https://aetherfuels.com/.well-known/security.txt
+    status: 404
+  - url: https://aetherfuels.com/.well-known/aether-fuels-negative-control-7f3ab91c.json
+    status: 404
+  - url: https://api.aetherfuels.com/
+    status: 0
+  checked: '2026-09-12'

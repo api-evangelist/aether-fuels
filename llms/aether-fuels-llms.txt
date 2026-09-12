@@ -1,0 +1,54 @@
+# Aether Fuels
+
+> Aether Fuels is a sustainable-fuels technology company headquartered in Singapore with a
+> U.S. R&D center on the GTI Energy campus near Chicago. Its Aether Aurora process converts
+> waste carbon — CO2, CO, methane and other hydrocarbons from gasified biomass, municipal
+> solid waste, biogas and industrial off-gases — into drop-in sustainable liquid fuels for
+> aviation and ocean shipping.
+
+Provenance: this file was written by API Evangelist (apievangelist.com) from Aether Fuels'
+public website on 2026-09-12. Aether Fuels does not serve an llms.txt of its own —
+https://aetherfuels.com/llms.txt returned HTTP 404 when probed on 2026-09-12.
+
+## What Aether Fuels sells
+
+Aether Fuels sells fuel and process technology, not software. There is no developer program,
+no public API, no SDK, no MCP server and no machine-readable API contract. Every contract
+discovery path probed on aetherfuels.com on 2026-09-12 returned HTTP 404 — /openapi.json,
+/openapi.yaml, /swagger.json, /v1/openapi.json, /api-docs, /docs, /redoc, /api, /apis.json,
+/apis.yml and the full /.well-known/ list including /.well-known/agent-card.json. No api.,
+developer., docs., portal., app., data. or status. subdomain resolves in DNS.
+
+## Technology
+
+- Aether Aurora: a radically simplified evolution of industrial gas-to-liquid, licensed in
+  part from strategic partner GTI Energy.
+- Feedstock flexibility: any feedstock convertible to CO, CO2, CH4 and/or H2.
+- Electrified syngas generation: a novel electric thermochemical reactor for higher yield,
+  higher energy efficiency and a smaller reactor footprint.
+- Intensified syngas generation and upgrading: three novel catalysts that reduce equipment
+  count through process intensification.
+- Scale today: a 1.5 gallon-per-day fully integrated pilot plant with GTI Energy, operational
+  since 2021; a 1+ barrel-per-day integrated demonstration plant under construction.
+
+## Pages
+
+- [Home](https://aetherfuels.com/): company overview and latest news.
+- [Approach](https://aetherfuels.com/approach): the sustainable-fuel supply/demand gap and why breakthrough economics are required.
+- [Technology](https://aetherfuels.com/technology): the three Aether Aurora innovations and plant development status.
+- [About](https://aetherfuels.com/about): company mission and leadership team.
+- [News](https://aetherfuels.com/news): press releases and company announcements.
+- [Careers](https://aetherfuels.com/careers): open roles.
+- [Contact](https://aetherfuels.com/contact): Singapore and Chicago offices, info@aetherfuels.com.
+
+## Contact
+
+- Email: info@aetherfuels.com
+- Singapore: 9 Raffles Place #26-01, Republic Plaza, Singapore 048619
+- Chicago: 171 N Aberdeen Street, Suite 400, Chicago, IL 60607
+- LinkedIn: https://www.linkedin.com/company/aether-fuels/
+
+## Crawler policy (observed)
+
+https://aetherfuels.com/robots.txt (HTTP 200, probed 2026-09-12) disallows GPTBot,
+Google-Extended and PerplexityBot from the entire site. Respect it.
