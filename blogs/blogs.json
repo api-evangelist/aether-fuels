@@ -1,0 +1,14 @@
+{
+  "repo": "aether-fuels",
+  "feeds": [
+    {
+      "source": "https://aetherfuels.com/news",
+      "feed_url": "https://aetherfuels.com/news",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-13T13:00:00Z"
+}
