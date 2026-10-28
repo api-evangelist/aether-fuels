@@ -64,5 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aether Fuels is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Aether Fuels is a sustainable-fuels technology company founded in April 2022 by Conor Madigan with Xora Innovation, headquartered at Republic Plaza in Singapore with a U.S. R&D center on the GTI Energy campus in the Chicago area. Its Aether Aurora process is a radically simplified gas-to-liquid route that converts waste carbon — CO2, CO, methane and other hydrocarbons from gasified biomass, municipal solid waste, biogas and industrial off-gases — into drop-in sustainable liquid fuels for aviation and ocean shipping, combining an electrified thermochemical syngas reactor, three proprietary catalysts and by-product recycling to cut capital cost and raise carbon conversion efficiency at medium plant scale. The company runs a 1.5 gallon-per-day integrated pilot line with strategic partner GTI Energy, whose technology it licenses, and is building a 1+ barrel-per-day demonstration plant; it has signed MOUs with JetBlue and FlyORO and is partnered with Aster on a first commercial SAF plant in Singapore. Aether Fuels sells fuel and process technology, not software: it publishes no developer program, no public API, and no machine-readable API contract of any kind.
+
+**Areas:** Company · Energy · Sustainable Aviation Fuel · Synthetic Fuels · Clean Energy · Decarbonization · Carbon Capture and Utilization · Climate Tech · Chemicals · Deep Tech · Manufacturing · Singapore
+
+## Aether Fuels on APIs.io
+
+Everything profiled for Aether Fuels is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aether-fuels/](https://apis.io/providers/aether-fuels/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aether Fuels Domain Security](https://apis.io/security/aether-fuels/aether-fuels-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aetherfuels.com/)
+- [Support](https://aetherfuels.com/contact)
+- [Blog](https://aetherfuels.com/news)
+
+## API Evangelist rating
+
+**Kin Score 5.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.9** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aether-fuels/](https://apis.io/providers/aether-fuels/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aether Fuels: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aether-fuels/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
